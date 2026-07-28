@@ -3,4 +3,4 @@ Allow: /
 Disallow: /thank-you.html
 Disallow: /thank-you-es.html
 
-Sitemap: https://californiahomeenergycenter.com/sitemap.xml
+Sitemap: https://california-home-energy.com/sitemap.xml

@@ -3,83 +3,83 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://californiahomeenergycenter.com/</loc>
+    <loc>https://california-home-energy.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://californiahomeenergycenter.com/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://californiahomeenergycenter.com/index-es.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://california-home-energy.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://california-home-energy.com/index-es.html"/>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/index-es.html</loc>
+    <loc>https://california-home-energy.com/index-es.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://californiahomeenergycenter.com/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://californiahomeenergycenter.com/index-es.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://california-home-energy.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://california-home-energy.com/index-es.html"/>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/sacramento.html</loc>
+    <loc>https://california-home-energy.com/sacramento.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/san-diego.html</loc>
+    <loc>https://california-home-energy.com/san-diego.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/bay-area.html</loc>
+    <loc>https://california-home-energy.com/bay-area.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/blog/index.html</loc>
+    <loc>https://california-home-energy.com/blog/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/blog/why-energy-efficient-home-upgrades.html</loc>
+    <loc>https://california-home-energy.com/blog/why-energy-efficient-home-upgrades.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/blog/california-rebates-after-federal-credits-expired.html</loc>
+    <loc>https://california-home-energy.com/blog/california-rebates-after-federal-credits-expired.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/blog/sacramento-smud-heat-pump-rebates.html</loc>
+    <loc>https://california-home-energy.com/blog/sacramento-smud-heat-pump-rebates.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/blog/san-jose-home-energy-rebates.html</loc>
+    <loc>https://california-home-energy.com/blog/san-jose-home-energy-rebates.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/blog/san-diego-home-energy-rebates.html</loc>
+    <loc>https://california-home-energy.com/blog/san-diego-home-energy-rebates.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/privacy.html</loc>
+    <loc>https://california-home-energy.com/privacy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://californiahomeenergycenter.com/terms.html</loc>
+    <loc>https://california-home-energy.com/terms.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
