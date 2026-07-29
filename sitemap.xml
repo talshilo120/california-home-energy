@@ -42,6 +42,17 @@
     <priority>0.7</priority>
   </url>
 
+  <url><loc>https://california-home-energy.com/blog/hvac-heat-pumps-california.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://california-home-energy.com/blog/attic-insulation-california.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://california-home-energy.com/blog/solar-california.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://california-home-energy.com/blog/energy-efficient-windows-california.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://california-home-energy.com/blog/cool-roof-california.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://california-home-energy.com/blog/water-wise-landscaping-california.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://california-home-energy.com/blog/artificial-turf-california.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://california-home-energy.com/blog/pavers-hardscape-california.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://california-home-energy.com/blog/exterior-paint-california.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://california-home-energy.com/blog/foundation-repair-california.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
   <url>
     <loc>https://california-home-energy.com/blog/why-energy-efficient-home-upgrades.html</loc>
     <changefreq>monthly</changefreq>
