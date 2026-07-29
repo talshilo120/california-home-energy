@@ -20,10 +20,22 @@ header{background:#fff;border-bottom:1px solid var(--border);padding:14px 0;posi
 .header-cta{background:var(--gold);color:var(--navy-deep);font-weight:800;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:14px;white-space:nowrap}
 .header-cta:hover{background:#b8851f}
 
-.article-hero{background:linear-gradient(150deg,var(--navy-deep),var(--navy-mid));color:#fff;padding:44px 0 40px}
-.article-hero .crumb{font-size:12.5px;color:#a8bdd2;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px}
-.article-hero .crumb a{color:#a8bdd2;text-decoration:none}
-.article-hero h1{font-size:34px;line-height:1.18;font-weight:800;letter-spacing:-.4px;max-width:680px}
+.article-hero{
+  background:
+    radial-gradient(ellipse at 12% 0%, rgba(61,139,55,.25) 0%, transparent 55%),
+    url('hero-illustration.svg') right -8px bottom -6px / 360px auto no-repeat,
+    linear-gradient(150deg,var(--navy-deep) 0%,var(--navy) 55%,var(--navy-mid) 100%);
+  color:#fff;padding:52px 0 46px;position:relative;overflow:hidden}
+.article-hero::after{content:"";position:absolute;inset:0;
+  background:repeating-linear-gradient(90deg,rgba(255,255,255,.025) 0 3px,transparent 3px 28px);pointer-events:none}
+.article-hero .container{position:relative;z-index:2}
+.article-hero .crumb{font-size:12.5px;color:#9fd8c2;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px;font-weight:700}
+.article-hero .crumb a{color:#9fd8c2;text-decoration:none}
+.article-hero h1{font-size:34px;line-height:1.18;font-weight:800;letter-spacing:-.4px;max-width:66%}
+@media(max-width:760px){
+  .article-hero{background:radial-gradient(ellipse at 12% 0%, rgba(61,139,55,.25) 0%, transparent 55%),linear-gradient(150deg,var(--navy-deep),var(--navy-mid))}
+  .article-hero h1{max-width:100%}
+}
 .article-hero .meta{margin-top:14px;font-size:13.5px;color:#a8bdd2}
 .article-hero .hero-btn{display:inline-block;margin-top:20px;background:var(--gold);color:var(--navy-deep);font-weight:800;
   font-size:16px;padding:14px 30px;border-radius:10px;text-decoration:none;box-shadow:0 6px 18px rgba(200,149,42,.35)}

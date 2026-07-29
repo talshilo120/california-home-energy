@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" fill="none" role="img" aria-label="Illustration of a California home with solar panels and rolling hills at sunset">
+  <!-- soft sun glow -->
+  <circle cx="388" cy="96" r="86" fill="#e8b04a" opacity="0.14"/>
+  <!-- sun -->
+  <circle cx="388" cy="96" r="46" fill="#e8b04a"/>
+  <circle cx="388" cy="96" r="46" fill="#f0c569" opacity="0.5"/>
+  <!-- sun rays -->
+  <g stroke="#e8b04a" stroke-width="4" stroke-linecap="round" opacity="0.75">
+    <line x1="388" y1="24" x2="388" y2="8"/>
+    <line x1="452" y1="40" x2="464" y2="28"/>
+    <line x1="324" y1="40" x2="312" y2="28"/>
+    <line x1="470" y1="96" x2="486" y2="96"/>
+    <line x1="306" y1="96" x2="290" y2="96"/>
+    <line x1="452" y1="152" x2="464" y2="164"/>
+  </g>
+
+  <!-- far hills -->
+  <path d="M0 250 Q130 208 270 246 T520 232 V360 H0 Z" fill="#2c6828" opacity="0.45"/>
+  <!-- mid hills -->
+  <path d="M0 282 Q150 244 320 278 T520 268 V360 H0 Z" fill="#3d8b37" opacity="0.55"/>
+
+  <!-- trees -->
+  <g opacity="0.85">
+    <rect x="86" y="252" width="7" height="26" rx="2" fill="#2c6828"/>
+    <circle cx="89.5" cy="244" r="20" fill="#3d8b37"/>
+    <rect x="122" y="262" width="6" height="20" rx="2" fill="#2c6828"/>
+    <circle cx="125" cy="256" r="15" fill="#4a9b43"/>
+  </g>
+
+  <!-- house -->
+  <g>
+    <!-- body -->
+    <rect x="196" y="228" width="150" height="96" rx="4" fill="#12314e"/>
+    <!-- roof -->
+    <path d="M186 232 L271 176 L356 232 Z" fill="#1c4a72"/>
+    <!-- solar panels on roof -->
+    <g transform="rotate(-33.5 271 204)">
+      <rect x="238" y="196" width="66" height="30" rx="2" fill="#0b2138"/>
+      <g stroke="#5c8cc0" stroke-width="1.2" opacity="0.9">
+        <line x1="238" y1="206" x2="304" y2="206"/>
+        <line x1="238" y1="216" x2="304" y2="216"/>
+        <line x1="260" y1="196" x2="260" y2="226"/>
+        <line x1="282" y1="196" x2="282" y2="226"/>
+      </g>
+    </g>
+    <!-- door -->
+    <rect x="256" y="278" width="30" height="46" rx="2" fill="#c8952a"/>
+    <circle cx="280" cy="302" r="2.4" fill="#12314e"/>
+    <!-- windows (glowing) -->
+    <rect x="212" y="252" width="30" height="30" rx="2" fill="#f0c569"/>
+    <rect x="300" y="252" width="30" height="30" rx="2" fill="#f0c569"/>
+    <g stroke="#12314e" stroke-width="1.4" opacity="0.6">
+      <line x1="227" y1="252" x2="227" y2="282"/>
+      <line x1="212" y1="267" x2="242" y2="267"/>
+      <line x1="315" y1="252" x2="315" y2="282"/>
+      <line x1="300" y1="267" x2="330" y2="267"/>
+    </g>
+    <!-- little green leaf accent (brand) -->
+    <path d="M356 232 Q380 224 400 232 Q380 240 356 232 Z" fill="#3d8b37" opacity="0.9"/>
+  </g>
+
+  <!-- foreground hill -->
+  <path d="M0 310 Q170 286 360 306 T520 300 V360 H0 Z" fill="#2c6828" opacity="0.7"/>
+</svg>
