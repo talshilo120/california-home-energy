@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" fill="none" role="img" aria-label="Illustration of a modern heat pump HVAC unit outside a California home">
+  <circle cx="400" cy="80" r="70" fill="#e8b04a" opacity="0.13"/>
+  <circle cx="400" cy="80" r="38" fill="#e8b04a"/>
+  <g stroke="#e8b04a" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <line x1="400" y1="24" x2="400" y2="10"/>
+    <line x1="452" y1="80" x2="466" y2="80"/>
+    <line x1="440" y1="120" x2="450" y2="130"/>
+  </g>
+  <path d="M0 280 Q160 250 320 274 T520 262 V360 H0 Z" fill="#2c6828" opacity="0.5"/>
+  <path d="M0 306 Q170 282 360 302 T520 296 V360 H0 Z" fill="#3d8b37" opacity="0.65"/>
+
+  <!-- house wall behind unit -->
+  <rect x="150" y="150" width="220" height="140" rx="4" fill="#12314e"/>
+  <rect x="186" y="184" width="46" height="46" rx="2" fill="#f0c569"/>
+  <g stroke="#12314e" stroke-width="1.4" opacity="0.6">
+    <line x1="209" y1="184" x2="209" y2="230"/>
+    <line x1="186" y1="207" x2="232" y2="207"/>
+  </g>
+
+  <!-- heat pump / condenser unit -->
+  <g>
+    <rect x="252" y="238" width="120" height="72" rx="8" fill="#eef6ed" stroke="#2c6828" stroke-width="2.5"/>
+    <circle cx="312" cy="274" r="26" fill="#fff" stroke="#3d8b37" stroke-width="2.5"/>
+    <g stroke="#3d8b37" stroke-width="2.5" stroke-linecap="round">
+      <line x1="312" y1="254" x2="312" y2="294"/>
+      <line x1="292" y1="274" x2="332" y2="274"/>
+      <line x1="298" y1="260" x2="326" y2="288"/>
+      <line x1="298" y1="288" x2="326" y2="260"/>
+    </g>
+    <rect x="262" y="248" width="10" height="52" rx="2" fill="#c8952a"/>
+    <!-- vents -->
+    <g stroke="#2c6828" stroke-width="2" opacity="0.5">
+      <line x1="352" y1="248" x2="352" y2="300"/>
+      <line x1="360" y1="248" x2="360" y2="300"/>
+    </g>
+  </g>
+
+  <!-- efficiency waves -->
+  <g stroke="#3d8b37" stroke-width="2.5" stroke-linecap="round" opacity="0.55">
+    <path d="M240 226 q10 -10 20 0"/>
+    <path d="M228 236 q10 -10 20 0"/>
+  </g>
+</svg>

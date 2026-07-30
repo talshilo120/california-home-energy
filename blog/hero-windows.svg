@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" fill="none" role="img" aria-label="Illustration of energy-efficient windows on a California home">
+  <circle cx="392" cy="90" r="76" fill="#e8b04a" opacity="0.14"/>
+  <circle cx="392" cy="90" r="42" fill="#e8b04a"/>
+  <g stroke="#e8b04a" stroke-width="4" stroke-linecap="round" opacity="0.75">
+    <line x1="392" y1="30" x2="392" y2="16"/>
+    <line x1="450" y1="46" x2="462" y2="34"/>
+    <line x1="450" y1="134" x2="462" y2="146"/>
+  </g>
+  <path d="M0 254 Q150 218 300 250 T520 236 V360 H0 Z" fill="#2c6828" opacity="0.45"/>
+  <path d="M0 288 Q160 256 340 282 T520 272 V360 H0 Z" fill="#3d8b37" opacity="0.6"/>
+
+  <rect x="150" y="140" width="220" height="150" rx="4" fill="#12314e"/>
+  <rect x="248" y="234" width="26" height="56" rx="2" fill="#c8952a"/>
+
+  <!-- big feature window with reflection -->
+  <rect x="182" y="168" width="80" height="80" rx="3" fill="#f0c569"/>
+  <g stroke="#12314e" stroke-width="2" opacity="0.7">
+    <line x1="222" y1="168" x2="222" y2="248"/>
+    <line x1="182" y1="208" x2="262" y2="208"/>
+  </g>
+  <path d="M188 174 L214 174 L188 214 Z" fill="#fff" opacity="0.35"/>
+
+  <rect x="290" y="176" width="60" height="60" rx="3" fill="#f0c569"/>
+  <g stroke="#12314e" stroke-width="2" opacity="0.7">
+    <line x1="320" y1="176" x2="320" y2="236"/>
+    <line x1="290" y1="206" x2="350" y2="206"/>
+  </g>
+
+  <!-- efficiency shield badge -->
+  <g transform="translate(300,120)">
+    <path d="M30 4 L54 14 V32 C54 46 42 56 30 62 C18 56 6 46 6 32 V14 Z" fill="#3d8b37"/>
+    <path d="M18 32 L26 40 L44 20" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- outside/inside temp arrows -->
+  <g stroke="#eef6ed" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+    <path d="M150 190 l-14 0 M136 190 l6 -6 M136 190 l6 6"/>
+  </g>
+</svg>

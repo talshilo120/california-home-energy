@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" fill="none" role="img" aria-label="Illustration of water-wise drought-friendly landscaping in front of a California home">
+  <circle cx="404" cy="70" r="70" fill="#e8b04a" opacity="0.13"/>
+  <circle cx="404" cy="70" r="38" fill="#e8b04a"/>
+  <path d="M0 240 Q150 210 300 236 T520 224 V360 H0 Z" fill="#2c6828" opacity="0.4"/>
+
+  <rect x="176" y="196" width="170" height="70" rx="4" fill="#12314e"/>
+  <path d="M164 200 L261 148 L358 200 Z" fill="#1c4a72"/>
+  <rect x="236" y="238" width="24" height="28" rx="2" fill="#c8952a"/>
+  <rect x="196" y="212" width="24" height="20" rx="2" fill="#f0c569"/>
+  <rect x="300" y="212" width="24" height="20" rx="2" fill="#f0c569"/>
+
+  <!-- decomposed granite / mulch ground -->
+  <path d="M0 268 Q160 250 340 272 T520 262 V360 H0 Z" fill="#c9a876" opacity="0.5"/>
+  <path d="M0 300 Q170 286 360 304 T520 296 V360 H0 Z" fill="#a9885e" opacity="0.55"/>
+
+  <!-- drought-friendly plant clusters -->
+  <g>
+    <path d="M70 300 C60 280 80 270 70 250 M70 300 C80 280 60 270 70 250" stroke="#3d8b37" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M70 300 C55 288 88 288 70 300" fill="#4a9b43"/>
+  </g>
+  <g transform="translate(120,30)">
+    <path d="M0 300 C-8 282 8 278 0 260 M0 300 C8 282 -8 278 0 260 M0 300 C-6 290 6 290 0 300" stroke="#2c6828" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <g transform="translate(400,20)">
+    <circle cx="0" cy="286" r="18" fill="#4a9b43" opacity="0.9"/>
+    <circle cx="16" cy="296" r="12" fill="#3d8b37" opacity="0.9"/>
+  </g>
+  <g transform="translate(440,-4)">
+    <path d="M0 300 C-8 278 8 276 0 254 M0 300 C10 284 -6 280 0 264" stroke="#2c6828" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- drip irrigation line -->
+  <g stroke="#5c8cc0" stroke-width="2" stroke-dasharray="1 6" stroke-linecap="round" opacity="0.85">
+    <path d="M40 310 Q220 300 460 312"/>
+  </g>
+  <circle cx="70" cy="308" r="2.5" fill="#5c8cc0"/>
+  <circle cx="150" cy="303" r="2.5" fill="#5c8cc0"/>
+  <circle cx="260" cy="303" r="2.5" fill="#5c8cc0"/>
+  <circle cx="360" cy="307" r="2.5" fill="#5c8cc0"/>
+</svg>

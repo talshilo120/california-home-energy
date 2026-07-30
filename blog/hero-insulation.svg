@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" fill="none" role="img" aria-label="Cutaway illustration of attic insulation in a California home roof">
+  <circle cx="404" cy="80" r="70" fill="#e8b04a" opacity="0.13"/>
+  <circle cx="404" cy="80" r="38" fill="#e8b04a"/>
+  <path d="M0 260 Q150 224 300 256 T520 242 V360 H0 Z" fill="#2c6828" opacity="0.45"/>
+  <path d="M0 292 Q160 260 340 288 T520 276 V360 H0 Z" fill="#3d8b37" opacity="0.6"/>
+
+  <rect x="170" y="222" width="180" height="102" rx="4" fill="#12314e"/>
+  <rect x="246" y="272" width="26" height="52" rx="2" fill="#c8952a"/>
+  <rect x="196" y="246" width="26" height="26" rx="2" fill="#f0c569"/>
+  <rect x="300" y="246" width="26" height="26" rx="2" fill="#f0c569"/>
+  <path d="M156 226 L260 156 L364 226 Z" fill="#1c4a72"/>
+
+  <!-- attic cutaway box revealing insulation -->
+  <rect x="196" y="182" width="128" height="40" rx="3" fill="#eef6ed" stroke="#2c6828" stroke-width="2"/>
+  <!-- fluffy insulation batts -->
+  <g fill="#f5e6c4" stroke="#c8952a" stroke-width="1.2">
+    <path d="M202 214 q6 -14 12 0 q6 -14 12 0 q6 -14 12 0 q6 -14 12 0 q6 -14 12 0 q6 -14 12 0 q6 -14 12 0 q6 -14 12 0 v6 h-96 z"/>
+  </g>
+  <g fill="#f0c569" opacity="0.6">
+    <circle cx="214" cy="198" r="3"/>
+    <circle cx="238" cy="196" r="3"/>
+    <circle cx="262" cy="199" r="3"/>
+    <circle cx="286" cy="196" r="3"/>
+    <circle cx="308" cy="198" r="3"/>
+  </g>
+
+  <!-- heat blocked arrows from outside -->
+  <g stroke="#b03a2e" stroke-width="2.5" stroke-linecap="round" opacity="0.65">
+    <path d="M120 150 l24 24"/>
+    <path d="M138 150 l-6 6 M144 174 l-6 -6" fill="none"/>
+  </g>
+  <!-- comfort check inside -->
+  <g transform="translate(230,260)">
+    <circle cx="15" cy="15" r="16" fill="#3d8b37"/>
+    <path d="M7 15 l6 6 L23 8" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

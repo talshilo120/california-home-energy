@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" fill="none" role="img" aria-label="Illustration of a lush artificial turf yard in front of a California home">
+  <circle cx="404" cy="70" r="70" fill="#e8b04a" opacity="0.13"/>
+  <circle cx="404" cy="70" r="38" fill="#e8b04a"/>
+  <path d="M0 240 Q150 210 300 236 T520 224 V360 H0 Z" fill="#2c6828" opacity="0.4"/>
+
+  <rect x="176" y="196" width="170" height="70" rx="4" fill="#12314e"/>
+  <path d="M164 200 L261 148 L358 200 Z" fill="#1c4a72"/>
+  <rect x="236" y="238" width="24" height="28" rx="2" fill="#c8952a"/>
+  <rect x="196" y="212" width="24" height="20" rx="2" fill="#f0c569"/>
+  <rect x="300" y="212" width="24" height="20" rx="2" fill="#f0c569"/>
+
+  <!-- lush turf lawn foreground, textured -->
+  <path d="M0 268 Q160 244 340 270 T520 258 V360 H0 Z" fill="#3d8b37"/>
+  <path d="M0 300 Q170 280 360 302 T520 292 V360 H0 Z" fill="#2c6828"/>
+  <!-- turf blade texture -->
+  <g stroke="#4a9b43" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <path d="M60 320 l-4 -14"/><path d="M80 326 l3 -16"/><path d="M104 322 l-3 -14"/>
+    <path d="M140 330 l4 -16"/><path d="M170 324 l-4 -14"/><path d="M210 332 l3 -16"/>
+    <path d="M250 326 l-3 -14"/><path d="M300 332 l4 -16"/><path d="M340 326 l-4 -14"/>
+    <path d="M380 332 l3 -16"/><path d="M420 324 l-3 -14"/><path d="M460 330 l4 -16"/>
+  </g>
+
+  <!-- no-water droplet with slash (no irrigation needed) -->
+  <g transform="translate(120,240)">
+    <path d="M18 2 C18 2 4 20 4 30 a14 14 0 0 0 28 0 C32 20 18 2 18 2 z" fill="#5c8cc0" opacity="0.9"/>
+    <line x1="0" y1="10" x2="36" y2="46" stroke="#b03a2e" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+</svg>

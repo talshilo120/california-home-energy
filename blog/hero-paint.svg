@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" fill="none" role="img" aria-label="Illustration of a freshly painted California home exterior">
+  <circle cx="404" cy="70" r="70" fill="#e8b04a" opacity="0.13"/>
+  <circle cx="404" cy="70" r="38" fill="#e8b04a"/>
+  <path d="M0 260 Q150 224 300 256 T520 242 V360 H0 Z" fill="#2c6828" opacity="0.45"/>
+  <path d="M0 292 Q160 260 340 288 T520 276 V360 H0 Z" fill="#3d8b37" opacity="0.6"/>
+
+  <!-- house wall split: worn (left) vs freshly painted (right) -->
+  <rect x="170" y="222" width="90" height="102" fill="#a8bdd2" opacity="0.55"/>
+  <rect x="260" y="222" width="90" height="102" rx="0" fill="#12314e"/>
+  <rect x="170" y="222" width="180" height="102" rx="4" fill="none" stroke="#0b2138" stroke-width="3"/>
+
+  <path d="M156 226 L260 156 L364 226 Z" fill="#1c4a72"/>
+  <rect x="246" y="272" width="26" height="52" rx="2" fill="#c8952a"/>
+  <rect x="196" y="246" width="26" height="26" rx="2" fill="#f0c569" opacity="0.7"/>
+  <rect x="300" y="246" width="26" height="26" rx="2" fill="#f0c569"/>
+
+  <!-- worn cracks on left side -->
+  <g stroke="#5c6a78" stroke-width="1.5" opacity="0.7">
+    <path d="M182 240 l8 14 l-4 10"/>
+    <path d="M198 300 l6 -8 l8 6"/>
+  </g>
+
+  <!-- paint roller with drip, mid-stroke over the divide -->
+  <g transform="translate(230,190) rotate(35)">
+    <rect x="0" y="0" width="46" height="20" rx="4" fill="#3d8b37"/>
+    <rect x="18" y="18" width="6" height="26" fill="#c8952a"/>
+    <path d="M24 44 l16 10" stroke="#c8952a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- fresh paint streak -->
+  <rect x="250" y="222" width="20" height="102" fill="#eef6ed" opacity="0.5"/>
+
+  <!-- shine sparkle on fresh side -->
+  <g stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity="0.8">
+    <line x1="310" y1="240" x2="310" y2="248"/>
+    <line x1="306" y1="244" x2="314" y2="244"/>
+  </g>
+</svg>
