@@ -238,7 +238,7 @@
   .services-note{text-align:center;font-size:13px;color:var(--muted);margin-top:24px;font-style:italic;max-width:720px;margin-left:auto;margin-right:auto}
 
   /* programs by region */
-  .regions{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .regions{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
   .region{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(11,33,56,.04);display:flex;flex-direction:column}
   .region-head{background:linear-gradient(135deg,var(--navy),var(--navy-mid));color:#fff;padding:16px 20px}
   .region-head h3{font-size:18px;font-weight:800;margin-bottom:2px}
@@ -738,6 +738,21 @@
         </div>
       </div>
 
+      <div class="region">
+        <div class="region-head">
+          <h3>Los Angeles</h3>
+          <p>LADWP territory</p>
+        </div>
+        <div class="region-body">
+          <ul>
+            <li>Up to <strong>$2,500/ton</strong> — heat pump HVAC conversion</li>
+            <li>Up to <strong>$2,500</strong> — heat pump water heater</li>
+            <li>Rebates for insulation, cool roofing &amp; smart thermostats</li>
+          </ul>
+          <a class="region-link" href="los-angeles.html">Los Angeles rebate guide →</a>
+        </div>
+      </div>
+
     </div>
     <p class="regions-note">
       Rebate amounts shown are as published by each program for 2026 and are subject to eligibility requirements,
@@ -878,6 +893,7 @@
     </p>
     <p class="copy" style="border-bottom:1px solid rgba(255,255,255,.1);padding-bottom:14px;margin-bottom:14px">
       <strong style="color:#cddced">Service Areas:</strong>
+      <a href="los-angeles.html">Los Angeles</a> &nbsp;·&nbsp;
       <a href="sacramento.html">Sacramento</a> &nbsp;·&nbsp;
       <a href="bay-area.html">Bay Area &amp; San Jose</a> &nbsp;·&nbsp;
       <a href="san-diego.html">San Diego</a>
