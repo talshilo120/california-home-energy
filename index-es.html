@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>California Home Energy Center | Evaluación Gratuita del Hogar</title>
-<meta name="description" content="Vea si su casa en California podría calificar para mejoras de eficiencia energética. Evaluación gratuita en el hogar, sin compromiso, por contratistas con licencia. Sacramento, Bay Area y San Diego.">
+<meta name="description" content="Vea si su casa en California podría calificar para mejoras de eficiencia energética. Evaluación gratuita en el hogar, sin compromiso, por contratistas con licencia. Los Ángeles, Sacramento, Bay Area y San Diego.">
 <link rel="canonical" href="https://california-home-energy.com/index-es.html">
 <link rel="alternate" hreflang="en" href="https://california-home-energy.com/">
 <link rel="alternate" hreflang="es" href="https://california-home-energy.com/index-es.html">
@@ -335,6 +335,21 @@
     .quiz-body{padding:18px 18px 22px}
     .progress-wrap{padding:14px 18px 0}
     .quiz-head{padding:15px 18px}
+  }
+
+  /* sticky call bar */
+  body{padding-bottom:64px}
+  .sticky-bar{position:fixed;left:0;right:0;bottom:0;z-index:80;display:flex;
+    box-shadow:0 -4px 16px rgba(11,33,56,.18)}
+  .sticky-call{flex:1;background:var(--navy-deep);color:#fff;text-align:center;padding:15px 10px;
+    font-weight:800;font-size:14.5px;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:8px}
+  .sticky-call:hover{background:var(--navy)}
+  .sticky-cta{flex:1;background:var(--gold);color:var(--navy-deep);text-align:center;padding:15px 10px;
+    font-weight:800;font-size:14.5px;text-decoration:none}
+  .sticky-cta:hover{background:#b8851f}
+  @media(min-width:900px){
+    body{padding-bottom:0}
+    .sticky-bar{display:none}
   }
 </style>
 </head>
@@ -1131,6 +1146,12 @@
   show(1);
 })();
 </script>
+
+<!-- ============ BARRA FIJA DE LLAMADA ============ -->
+<div class="sticky-bar">
+  <a class="sticky-call" href="tel:+18182701150"><svg class="i" style="stroke:currentColor"><use href="#i-phone"/></svg> Llamar (818) 270-1150</a>
+  <a class="sticky-cta" href="#quiz">Ver Si Califico</a>
+</div>
 
 </body>
 </html>

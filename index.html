@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>California Home Energy Center | Free Home Assessment</title>
-<meta name="description" content="See if your California home may qualify for energy-saving and home improvement upgrades. Free, no-obligation in-home assessment by licensed contractors. Serving Sacramento, the Bay Area &amp; San Diego.">
+<meta name="description" content="See if your California home may qualify for energy-saving and home improvement upgrades. Free, no-obligation in-home assessment by licensed contractors. Serving Los Angeles, Sacramento, the Bay Area &amp; San Diego.">
 <link rel="canonical" href="https://california-home-energy.com/">
 <link rel="alternate" hreflang="en" href="https://california-home-energy.com/">
 <link rel="alternate" hreflang="es" href="https://california-home-energy.com/index-es.html">
@@ -30,10 +30,10 @@
   "name": "California Home Energy Center",
   "url": "https://california-home-energy.com/",
   "telephone": "+1-818-270-1150",
-  "email": "californiahomeenergy@californiahomeenergycenter.com",
   "description": "Free, no-obligation in-home energy assessments for California homeowners, provided by licensed contractors.",
   "priceRange": "Free assessment",
   "areaServed": [
+    { "@type": "City", "name": "Los Angeles", "address": { "@type": "PostalAddress", "addressRegion": "CA", "addressCountry": "US" } },
     { "@type": "City", "name": "Sacramento", "address": { "@type": "PostalAddress", "addressRegion": "CA", "addressCountry": "US" } },
     { "@type": "City", "name": "San Jose", "address": { "@type": "PostalAddress", "addressRegion": "CA", "addressCountry": "US" } },
     { "@type": "City", "name": "San Diego", "address": { "@type": "PostalAddress", "addressRegion": "CA", "addressCountry": "US" } }
@@ -362,6 +362,21 @@
     .quiz-body{padding:18px 18px 22px}
     .progress-wrap{padding:14px 18px 0}
     .quiz-head{padding:15px 18px}
+  }
+
+  /* sticky call bar */
+  body{padding-bottom:64px}
+  .sticky-bar{position:fixed;left:0;right:0;bottom:0;z-index:80;display:flex;
+    box-shadow:0 -4px 16px rgba(11,33,56,.18)}
+  .sticky-call{flex:1;background:var(--navy-deep);color:#fff;text-align:center;padding:15px 10px;
+    font-weight:800;font-size:14.5px;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:8px}
+  .sticky-call:hover{background:var(--navy)}
+  .sticky-cta{flex:1;background:var(--gold);color:var(--navy-deep);text-align:center;padding:15px 10px;
+    font-weight:800;font-size:14.5px;text-decoration:none}
+  .sticky-cta:hover{background:#b8851f}
+  @media(min-width:900px){
+    body{padding-bottom:0}
+    .sticky-bar{display:none}
   }
 </style>
 </head>
@@ -829,7 +844,6 @@
       <div class="install"><span class="ic"><svg class="i"><use href="#i-pavers"/></svg></span><h3>Pavers &amp; Hardscape</h3><p>Driveways, patios, and walkways that add durability and appeal.</p></div>
       <div class="install"><span class="ic"><svg class="i"><use href="#i-paint"/></svg></span><h3>Exterior Paint</h3><p>Protective coatings that refresh and shield your home's exterior.</p></div>
     </div>
-    <p class="gallery-note">Have photos of your completed projects? Add them here to showcase real work — it's the strongest trust builder you can have.</p>
   </div>
 </section>
 
@@ -1165,6 +1179,12 @@
   show(1);
 })();
 </script>
+
+<!-- ============ STICKY CALL BAR ============ -->
+<div class="sticky-bar">
+  <a class="sticky-call" href="tel:+18182701150"><svg class="i" style="stroke:currentColor"><use href="#i-phone"/></svg> Call (818) 270-1150</a>
+  <a class="sticky-cta" href="#quiz">Check My Eligibility</a>
+</div>
 
 </body>
 </html>

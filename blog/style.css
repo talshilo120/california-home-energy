@@ -117,6 +117,18 @@ footer a{color:#8fa6bd}
 .index-card h2{font-size:20px;color:var(--navy);font-weight:800;line-height:1.35;margin-bottom:8px}
 .index-card p{font-size:14.5px;color:var(--muted)}
 
+/* rebate value banner (used on city pages) */
+.value-banner{background:linear-gradient(135deg,var(--navy-deep),var(--navy-mid));color:#fff;padding:36px 0;margin:0 0 44px}
+.value-banner .container{max-width:900px}
+.value-banner h2{color:#fff;font-size:22px;font-weight:800;text-align:center;margin-bottom:6px}
+.value-banner .vb-sub{color:#c8d9ea;text-align:center;font-size:14.5px;margin-bottom:20px}
+.value-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.value-tile{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:18px 14px;text-align:center}
+.value-tile .amt{font-size:24px;font-weight:800;color:var(--gold);line-height:1.15}
+.value-tile .lbl{font-size:13px;color:#dbe7f2;margin-top:5px;font-weight:600}
+.value-tile .src{font-size:11px;color:#8fa6bd;margin-top:3px;text-transform:uppercase;letter-spacing:.4px}
+.value-note{text-align:center;font-size:11.5px;color:#8fa6bd;margin-top:16px;line-height:1.6}
+
 @media(max-width:640px){
   .article-hero h1{font-size:26px}
   .more-grid{grid-template-columns:1fr}
