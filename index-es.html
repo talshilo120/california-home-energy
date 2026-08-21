@@ -216,6 +216,16 @@
   .services-note{text-align:center;font-size:13px;color:var(--muted);margin-top:24px;font-style:italic;max-width:720px;margin-left:auto;margin-right:auto}
 
   /* programs by region */
+  .value-banner{background:linear-gradient(135deg,var(--navy-deep),var(--navy-mid));color:#fff;padding:44px 0}
+  .value-banner .sec-eyebrow{color:var(--gold-light)}
+  .value-banner .section-title{color:#fff}
+  .value-banner .section-sub{color:#c8d9ea}
+  .value-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:8px}
+  .value-tile{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:22px 18px;text-align:center}
+  .value-tile .amt{font-size:30px;font-weight:800;color:var(--gold);line-height:1.15}
+  .value-tile .lbl{font-size:13.5px;color:#dbe7f2;margin-top:6px;font-weight:600}
+  .value-tile .src{font-size:11.5px;color:#8fa6bd;margin-top:4px;text-transform:uppercase;letter-spacing:.4px}
+  .value-note{text-align:center;font-size:12.5px;color:#8fa6bd;margin-top:22px;max-width:760px;margin-left:auto;margin-right:auto;line-height:1.6}
   .regions{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
   .region{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(11,33,56,.04);display:flex;flex-direction:column}
   .region-head{background:linear-gradient(135deg,var(--navy),var(--navy-mid));color:#fff;padding:16px 20px}
@@ -657,6 +667,28 @@
       <div class="svc"><span class="ic"><svg class="i"><use href="#i-paint"/></svg></span><h3>Pintura Exterior</h3><p>Recubrimientos exteriores profesionales que protegen su casa y renuevan su apariencia.</p></div>
     </div>
     <p class="services-note">Las mejoras, reembolsos y opciones de financiamiento disponibles varían según el programa, la ubicación, la compañía de servicios y la condición de la casa. Un contratista con licencia determinará la elegibilidad durante su evaluación gratuita en el hogar.</p>
+  </div>
+</section>
+
+<!-- ============ REBATE VALUE AVAILABLE ============ -->
+<section class="value-banner">
+  <div class="container">
+    <p class="sec-eyebrow" style="text-align:center">Dinero Real, Programas Reales</p>
+    <h2 class="section-title">Reembolsos Disponibles para Propietarios de California en 2026</h2>
+    <p class="section-sub">Estos son los montos máximos publicados por programas activos — no es una promesa de lo que usted recibirá. Su evaluación gratuita muestra para qué podría calificar su casa específicamente.</p>
+    <div class="value-grid">
+      <div class="value-tile"><div class="amt">Hasta $4,000</div><div class="lbl">Calentador de agua con bomba de calor</div><div class="src">SMUD — Sacramento</div></div>
+      <div class="value-tile"><div class="amt">Hasta $2,500/tonelada</div><div class="lbl">Bomba de calor HVAC</div><div class="src">LADWP — Los Ángeles</div></div>
+      <div class="value-tile"><div class="amt">Hasta $3,500</div><div class="lbl">Calentador de agua con bomba de calor</div><div class="src">SJCE — San Jose</div></div>
+      <div class="value-tile"><div class="amt">$2 / pie²</div><div class="lbl">Conversión de césped a jardín</div><div class="src">SoCal Water$mart — San Diego</div></div>
+    </div>
+    <p class="value-note">
+      Los montos mostrados son los máximos publicados por cada programa para 2026, están sujetos a requisitos de
+      elegibilidad, especificaciones del equipo y disponibilidad de fondos, y pueden cambiar sin previo aviso. No se
+      promete ni garantiza ningún ahorro específico ni aprobación de programa para ninguna casa en particular. Los
+      programas son administrados únicamente por sus respectivas compañías de servicios; California Home Energy Center
+      no está afiliado con ninguno de ellos.
+    </p>
   </div>
 </section>
 

@@ -237,6 +237,18 @@
   .svc p{font-size:13.5px;color:var(--muted);line-height:1.55}
   .services-note{text-align:center;font-size:13px;color:var(--muted);margin-top:24px;font-style:italic;max-width:720px;margin-left:auto;margin-right:auto}
 
+  /* rebate value banner */
+  .value-banner{background:linear-gradient(135deg,var(--navy-deep),var(--navy-mid));color:#fff;padding:44px 0}
+  .value-banner .sec-eyebrow{color:var(--gold-light)}
+  .value-banner .section-title{color:#fff}
+  .value-banner .section-sub{color:#c8d9ea}
+  .value-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:8px}
+  .value-tile{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:22px 18px;text-align:center}
+  .value-tile .amt{font-size:30px;font-weight:800;color:var(--gold);line-height:1.15}
+  .value-tile .lbl{font-size:13.5px;color:#dbe7f2;margin-top:6px;font-weight:600}
+  .value-tile .src{font-size:11.5px;color:#8fa6bd;margin-top:4px;text-transform:uppercase;letter-spacing:.4px}
+  .value-note{text-align:center;font-size:12.5px;color:#8fa6bd;margin-top:22px;max-width:760px;margin-left:auto;margin-right:auto;line-height:1.6}
+
   /* programs by region */
   .regions{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
   .region{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(11,33,56,.04);display:flex;flex-direction:column}
@@ -682,6 +694,27 @@
       <div class="svc"><span class="ic"><svg class="i"><use href="#i-paint"/></svg></span><h3>Exterior Paint</h3><p>Professional exterior coatings that protect your home and refresh its appearance.</p></div>
     </div>
     <p class="services-note">Available upgrades, rebates, and financing options vary by program, location, utility provider, and home condition. A licensed contractor will determine eligibility during your free in-home assessment.</p>
+  </div>
+</section>
+
+<!-- ============ REBATE VALUE AVAILABLE ============ -->
+<section class="value-banner">
+  <div class="container">
+    <p class="sec-eyebrow" style="text-align:center">Real Money, Real Programs</p>
+    <h2 class="section-title">Rebate Dollars Available to California Homeowners in 2026</h2>
+    <p class="section-sub">These are the maximum published amounts for active utility programs — not a promise of what you'll receive. Your free assessment shows what your specific home may qualify for.</p>
+    <div class="value-grid">
+      <div class="value-tile"><div class="amt">Up to $4,000</div><div class="lbl">Heat pump water heater</div><div class="src">SMUD — Sacramento</div></div>
+      <div class="value-tile"><div class="amt">Up to $2,500/ton</div><div class="lbl">Heat pump HVAC</div><div class="src">LADWP — Los Angeles</div></div>
+      <div class="value-tile"><div class="amt">Up to $3,500</div><div class="lbl">Heat pump water heater</div><div class="src">SJCE — San Jose</div></div>
+      <div class="value-tile"><div class="amt">$2 / sq ft</div><div class="lbl">Lawn-to-landscape conversion</div><div class="src">SoCal Water$mart — San Diego</div></div>
+    </div>
+    <p class="value-note">
+      Amounts shown are the maximum rebates as published by each program for 2026, are subject to eligibility
+      requirements, equipment specifications, and funding availability, and can change without notice. No specific
+      savings or program approval is promised or guaranteed for any individual home. Programs are administered solely
+      by their respective utilities; California Home Energy Center is not affiliated with any of them.
+    </p>
   </div>
 </section>
 
