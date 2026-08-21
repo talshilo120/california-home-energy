@@ -96,7 +96,16 @@
   .hero-pills .i{color:var(--gold);font-size:15px}
   .hero h1{font-size:44px;line-height:1.12;font-weight:800;margin-bottom:16px;letter-spacing:-.5px}
   .hero h1 em{font-style:normal;color:var(--gold)}
-  .hero .sub{font-size:18.5px;color:#c8d9ea;margin-bottom:26px;max-width:520px}
+  .hero-tagline{font-size:20px;color:#fff;font-weight:600;margin-bottom:10px;max-width:520px;line-height:1.4}
+  .hero-tagline em{font-style:normal;color:var(--gold)}
+  .hero .sub{font-size:16px;color:#c8d9ea;margin-bottom:20px;max-width:520px}
+  .hero-cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+  .hero-cta-call{display:inline-flex;align-items:center;gap:8px;background:transparent;border:2px solid rgba(255,255,255,.5);
+    color:#fff;font-weight:800;font-size:15px;padding:13px 22px;border-radius:10px;text-decoration:none;transition:.15s}
+  .hero-cta-call:hover{background:rgba(255,255,255,.1);border-color:#fff}
+  .hero-cta-check{display:inline-flex;align-items:center;background:var(--gold);color:var(--navy-deep);font-weight:800;
+    font-size:15px;padding:13px 24px;border-radius:10px;text-decoration:none;box-shadow:0 4px 14px rgba(200,149,42,.35);transition:.15s}
+  .hero-cta-check:hover{background:#b8851f;transform:translateY(-1px)}
 
   .hero-benefits{list-style:none;margin-bottom:30px}
   .hero-benefits li{padding:7px 0 7px 34px;position:relative;font-size:16px;color:#e4edf6}
@@ -379,6 +388,7 @@
     <symbol id="i-noshare" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
     <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4 h4 l2 5 -2.5 1.5 a11 11 0 0 0 5 5 L16 13 l5 2 v4 a1 1 0 0 1 -1 1 A16 16 0 0 1 4 5 a1 1 0 0 1 1 -1 z"/></symbol>
     <symbol id="i-droplet" viewBox="0 0 24 24"><path d="M12 3 C12 3 5 11 5 15 a7 7 0 0 0 14 0 C19 11 12 3 12 3 z"/></symbol>
+    <symbol id="i-thermostat" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="3" x2="12" y2="6"/></symbol>
     <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="3" y1="12" x2="21" y2="12"/><path d="M12 3 a14 14 0 0 1 0 18 a14 14 0 0 1 0 -18"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12 l5 5 L20 6"/></symbol>
   </defs>
@@ -430,6 +440,7 @@
         <strong><a href="tel:+18182701150">(818) 270-1150</a></strong>
         <a href="mailto:californiahomeenergy@californiahomeenergycenter.com">californiahomeenergy@californiahomeenergycenter.com</a>
       </div>
+      <a class="header-nav-link" href="about.html">Nosotros</a>
       <a class="header-nav-link" href="blog/index.html">Blog</a>
       <a class="header-es" href="index.html"><svg class="i" style="stroke:currentColor"><use href="#i-globe"/></svg> English</a>
       <a class="header-cta" href="#quiz">Ver Si Califico</a>
@@ -446,8 +457,13 @@
         <span><svg class="i"><use href="#i-medal"/></svg> Evaluación Gratuita</span>
         <span><svg class="i"><use href="#i-check"/></svg> Sin Compromiso</span>
       </div>
-      <h1>Reduzca Sus Facturas de Energía <em>Desde Hoy</em></h1>
-      <p class="sub">Descubra si su casa califica para mejoras que ahorran energía con una <strong>evaluación GRATUITA en el hogar</strong> por un contratista local con licencia.</p>
+      <h1>Reduzca Sus Facturas de Energía en California</h1>
+      <p class="hero-tagline">Descubra qué mejoras y reembolsos <em>podrían estar disponibles</em> en su área.</p>
+      <p class="sub">Evaluación gratuita y sin compromiso con un contratista de California con licencia. Llame ahora o verifique su elegibilidad en 60 segundos.</p>
+      <div class="hero-cta-row">
+        <a class="hero-cta-call" href="tel:+18182701150"><svg class="i" style="stroke:currentColor"><use href="#i-phone"/></svg> Llamar (818) 270-1150</a>
+        <a class="hero-cta-check" href="#quiz">Ver Si Califico →</a>
+      </div>
       <ul class="hero-benefits">
         <li>Posibles ahorros en las facturas mensuales de luz y gas</li>
         <li>Un hogar más cómodo, durante todo el año</li>
@@ -564,6 +580,7 @@
           <div class="field">
             <label for="phone">Número de Teléfono</label>
             <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(555) 555-5555">
+            <p style="font-size:11.5px;color:var(--muted);margin-top:5px">Solo le llamaremos sobre su evaluación gratuita.</p>
           </div>
           <div class="err-msg" id="errPhone">Ingrese un número de teléfono válido de 10 dígitos.</div>
           <div class="field">
@@ -627,7 +644,7 @@
 
       <div class="quiz-foot">
         <span><svg class="i" style="stroke:var(--muted)"><use href="#i-lock"/></svg> Su información está segura</span>
-        <span><svg class="i" style="stroke:var(--muted)"><use href="#i-noshare"/></svg> Nunca vendemos sus datos</span>
+        <span><svg class="i" style="stroke:var(--muted)"><use href="#i-noshare"/></svg> Solo se comparte con su contratista asignado</span>
       </div>
     </div>
   </div>
@@ -668,18 +685,15 @@
 <section class="section-alt">
   <div class="container">
     <p class="sec-eyebrow">Lo Que Hacemos</p>
-    <h2 class="section-title">Mejoras Que Podrían Estar Disponibles</h2>
+    <h2 class="section-title">Mejoras de Energía Que Podrían Estar Disponibles</h2>
     <p class="section-sub">Según la condición de su casa y su elegibilidad, su evaluación gratuita puede incluir:</p>
     <div class="services">
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-window"/></svg></span><h3>Ventanas</h3><p>Ventanas de reemplazo de bajo consumo que ayudan a reducir la transferencia de calor y el ruido exterior.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-roof"/></svg></span><h3>Techos</h3><p>Techos duraderos y opciones de techo frío hechos para el sol y el clima de California.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-hvac"/></svg></span><h3>Climatización</h3><p>Sistemas modernos de calefacción y aire acondicionado que funcionan de forma más eficiente que los antiguos.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-insulation"/></svg></span><h3>Aislamiento</h3><p>Aislamiento de ático y paredes para que su casa mantenga la temperatura y esté cómoda.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-grass"/></svg></span><h3>Césped Artificial</h3><p>Césped de bajo mantenimiento que se mantiene verde todo el año y reduce el uso de agua.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-tree"/></svg></span><h3>Jardinería</h3><p>Jardinería de bajo consumo de agua diseñada para el clima de California.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-pavers"/></svg></span><h3>Adoquines</h3><p>Entradas, patios y senderos que añaden durabilidad y buena apariencia.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-foundation"/></svg></span><h3>Cimientos</h3><p>Evaluación y reparación de cimientos para proteger la integridad estructural de su casa.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-paint"/></svg></span><h3>Pintura Exterior</h3><p>Recubrimientos exteriores profesionales que protegen su casa y renuevan su apariencia.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-hvac"/></svg></span><h3>Climatización y Bombas de Calor</h3><p>Sistemas modernos que funcionan de forma más eficiente que los antiguos.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-insulation"/></svg></span><h3>Aislamiento de Ático</h3><p>Aislamiento para que su casa mantenga la temperatura y esté cómoda.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-window"/></svg></span><h3>Ventanas de Bajo Consumo</h3><p>Reemplazos que ayudan a reducir la transferencia de calor y el ruido.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-roof"/></svg></span><h3>Techos Fríos</h3><p>Opciones de techo reflectante hechas para el clima de California.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-droplet"/></svg></span><h3>Calentadores con Bomba de Calor</h3><p>Calentamiento de agua eficiente que usa menos energía.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-thermostat"/></svg></span><h3>Termostatos Inteligentes</h3><p>Mejor control de temperatura que puede reducir el uso innecesario del HVAC.</p></div>
     </div>
     <p class="services-note">Las mejoras, reembolsos y opciones de financiamiento disponibles varían según el programa, la ubicación, la compañía de servicios y la condición de la casa. Un contratista con licencia determinará la elegibilidad durante su evaluación gratuita en el hogar.</p>
   </div>
@@ -787,23 +801,18 @@
   </div>
 </section>
 
-<!-- ============ WHAT WE INSTALL ============ -->
+<!-- ============ ADDITIONAL HOME IMPROVEMENTS ============ -->
 <section class="section-alt">
   <div class="container">
-    <p class="sec-eyebrow">Lo Que Instalamos</p>
-    <h2 class="section-title">Mejoras de Calidad, Instaladas Profesionalmente</h2>
-    <p class="section-sub">Desde sistemas de energía hasta exteriores — cada trabajo lo realizan cuadrillas con licencia y aseguradas.</p>
-    <div class="install-grid">
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-hvac"/></svg></span><h3>Climatización y Bombas de Calor</h3><p>Sistemas eficientes de calefacción y enfriamiento del tamaño adecuado para su casa.</p></div>
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-insulation"/></svg></span><h3>Aislamiento de Ático</h3><p>Mejor control de temperatura y comodidad, temporada tras temporada.</p></div>
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-window"/></svg></span><h3>Ventanas y Puertas</h3><p>Reemplazos de bajo consumo que reducen la transferencia de calor y el ruido.</p></div>
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-roof"/></svg></span><h3>Techos y Techos Fríos</h3><p>Techos duraderos hechos para el sol y el clima de California.</p></div>
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-droplet"/></svg></span><h3>Calentadores con Bomba de Calor</h3><p>Calentamiento de agua moderno y eficiente que usa menos energía.</p></div>
+    <p class="sec-eyebrow">Más Allá de la Energía</p>
+    <h2 class="section-title">Mejoras Adicionales para el Hogar</h2>
+    <p class="section-sub">Algunos contratistas de nuestra red también realizan estos proyectos exteriores — aparte de los reembolsos de energía.</p>
+    <div class="install-grid" style="grid-template-columns:repeat(4,1fr)">
       <div class="install"><span class="ic"><svg class="i"><use href="#i-grass"/></svg></span><h3>Jardinería y Césped</h3><p>Jardines de bajo consumo de agua y bajo mantenimiento, diseñados para el clima.</p></div>
       <div class="install"><span class="ic"><svg class="i"><use href="#i-pavers"/></svg></span><h3>Adoquines y Exteriores</h3><p>Entradas, patios y senderos que añaden durabilidad y buena apariencia.</p></div>
+      <div class="install"><span class="ic"><svg class="i"><use href="#i-foundation"/></svg></span><h3>Cimientos</h3><p>Evaluación y reparación para proteger la integridad estructural de su casa.</p></div>
       <div class="install"><span class="ic"><svg class="i"><use href="#i-paint"/></svg></span><h3>Pintura Exterior</h3><p>Recubrimientos protectores que renuevan y protegen el exterior de su casa.</p></div>
     </div>
-    <p class="gallery-note">¿Tiene fotos de sus proyectos terminados? Agréguelas aquí para mostrar trabajo real — es el mayor generador de confianza que existe.</p>
   </div>
 </section>
 
@@ -937,7 +946,7 @@
       quizNav.style.display  = '';
       var pct = Math.round((n / TOTAL_INPUT_STEPS) * 100);
       progBar.style.width  = pct + '%';
-      stepLabel.textContent = 'Paso ' + n + ' de ' + TOTAL_INPUT_STEPS;
+      stepLabel.textContent = 'Pregunta ' + n + ' de ' + TOTAL_INPUT_STEPS;
       pctLabel.textContent  = pct + '% completado';
       btnBack.style.display = n > 1 ? '' : 'none';
       btnNext.textContent   = n === TOTAL_INPUT_STEPS ? 'Ver Mis Resultados →' : 'Continuar →';

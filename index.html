@@ -118,7 +118,16 @@
   .hero-pills .i{color:var(--gold);font-size:15px}
   .hero h1{font-size:44px;line-height:1.12;font-weight:800;margin-bottom:16px;letter-spacing:-.5px}
   .hero h1 em{font-style:normal;color:var(--gold)}
-  .hero .sub{font-size:18.5px;color:#c8d9ea;margin-bottom:26px;max-width:520px}
+  .hero-tagline{font-size:20px;color:#fff;font-weight:600;margin-bottom:10px;max-width:520px;line-height:1.4}
+  .hero-tagline em{font-style:normal;color:var(--gold)}
+  .hero .sub{font-size:16px;color:#c8d9ea;margin-bottom:20px;max-width:520px}
+  .hero-cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+  .hero-cta-call{display:inline-flex;align-items:center;gap:8px;background:transparent;border:2px solid rgba(255,255,255,.5);
+    color:#fff;font-weight:800;font-size:15px;padding:13px 22px;border-radius:10px;text-decoration:none;transition:.15s}
+  .hero-cta-call:hover{background:rgba(255,255,255,.1);border-color:#fff}
+  .hero-cta-check{display:inline-flex;align-items:center;background:var(--gold);color:var(--navy-deep);font-weight:800;
+    font-size:15px;padding:13px 24px;border-radius:10px;text-decoration:none;box-shadow:0 4px 14px rgba(200,149,42,.35);transition:.15s}
+  .hero-cta-check:hover{background:#b8851f;transform:translateY(-1px)}
 
   .hero-benefits{list-style:none;margin-bottom:30px}
   .hero-benefits li{padding:7px 0 7px 34px;position:relative;font-size:16px;color:#e4edf6}
@@ -406,6 +415,7 @@
     <symbol id="i-noshare" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
     <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4 h4 l2 5 -2.5 1.5 a11 11 0 0 0 5 5 L16 13 l5 2 v4 a1 1 0 0 1 -1 1 A16 16 0 0 1 4 5 a1 1 0 0 1 1 -1 z"/></symbol>
     <symbol id="i-droplet" viewBox="0 0 24 24"><path d="M12 3 C12 3 5 11 5 15 a7 7 0 0 0 14 0 C19 11 12 3 12 3 z"/></symbol>
+    <symbol id="i-thermostat" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="3" x2="12" y2="6"/></symbol>
     <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="3" y1="12" x2="21" y2="12"/><path d="M12 3 a14 14 0 0 1 0 18 a14 14 0 0 1 0 -18"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12 l5 5 L20 6"/></symbol>
   </defs>
@@ -457,6 +467,7 @@
         <strong><a href="tel:+18182701150">(818) 270-1150</a></strong>
         <a href="mailto:californiahomeenergy@californiahomeenergycenter.com">californiahomeenergy@californiahomeenergycenter.com</a>
       </div>
+      <a class="header-nav-link" href="about.html">About</a>
       <a class="header-nav-link" href="blog/index.html">Blog</a>
       <a class="header-es" href="index-es.html"><svg class="i" style="stroke:currentColor"><use href="#i-globe"/></svg> Español</a>
       <a class="header-cta" href="#quiz">Check My Eligibility</a>
@@ -473,8 +484,13 @@
         <span><svg class="i"><use href="#i-medal"/></svg> Free Assessment</span>
         <span><svg class="i"><use href="#i-check"/></svg> No Obligation</span>
       </div>
-      <h1>Reduce Your Energy Bills <em>Starting Today</em></h1>
-      <p class="sub">Find out if your home qualifies for energy-saving improvements with a <strong>FREE home assessment</strong> from a licensed local contractor.</p>
+      <h1>Lower Your California Energy Bills</h1>
+      <p class="hero-tagline">Find out which home energy upgrades and rebates <em>may be available</em> in your area.</p>
+      <p class="sub">Free, no-obligation home assessment with a licensed California contractor. Call now or check eligibility in 60 seconds.</p>
+      <div class="hero-cta-row">
+        <a class="hero-cta-call" href="tel:+18182701150"><svg class="i" style="stroke:currentColor"><use href="#i-phone"/></svg> Call (818) 270-1150</a>
+        <a class="hero-cta-check" href="#quiz">Check My Eligibility →</a>
+      </div>
       <ul class="hero-benefits">
         <li>Potential savings on monthly electricity &amp; gas bills</li>
         <li>A more comfortable home, year-round</li>
@@ -591,6 +607,7 @@
           <div class="field">
             <label for="phone">Phone Number</label>
             <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(555) 555-5555">
+            <p style="font-size:11.5px;color:var(--muted);margin-top:5px">We'll only call about your free assessment.</p>
           </div>
           <div class="err-msg" id="errPhone">Please enter a valid 10-digit phone number.</div>
           <div class="field">
@@ -654,7 +671,7 @@
 
       <div class="quiz-foot">
         <span><svg class="i" style="stroke:var(--muted)"><use href="#i-lock"/></svg> Your information is secure</span>
-        <span><svg class="i" style="stroke:var(--muted)"><use href="#i-noshare"/></svg> We never sell your data</span>
+        <span><svg class="i" style="stroke:var(--muted)"><use href="#i-noshare"/></svg> Shared only with your assigned contractor</span>
       </div>
     </div>
   </div>
@@ -691,22 +708,19 @@
   </div>
 </section>
 
-<!-- ============ SERVICES ============ -->
+<!-- ============ SERVICES (ENERGY-FOCUSED) ============ -->
 <section class="section-alt">
   <div class="container">
     <p class="sec-eyebrow">What We Do</p>
-    <h2 class="section-title">Upgrades That May Be Available</h2>
+    <h2 class="section-title">Energy Upgrades That May Be Available</h2>
     <p class="section-sub">Depending on your home's condition and your eligibility, your free assessment may cover:</p>
     <div class="services">
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-window"/></svg></span><h3>Windows</h3><p>Energy-efficient replacement windows that help reduce heat transfer and outside noise.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-roof"/></svg></span><h3>Roofing</h3><p>Durable roofing and cool-roof options built for California sun and weather.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-hvac"/></svg></span><h3>HVAC</h3><p>Modern heating and cooling systems designed to run more efficiently than aging units.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-insulation"/></svg></span><h3>Insulation</h3><p>Attic and wall insulation to help your home hold temperature and stay comfortable.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-grass"/></svg></span><h3>Artificial Turf</h3><p>Low-maintenance turf that stays green year-round and cuts outdoor water use.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-tree"/></svg></span><h3>Landscape</h3><p>Drought-conscious landscaping designed for California's climate.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-pavers"/></svg></span><h3>Pavers</h3><p>Driveways, patios, and walkways that add durability and curb appeal.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-foundation"/></svg></span><h3>Foundation</h3><p>Foundation evaluation and repair to protect your home's structural integrity.</p></div>
-      <div class="svc"><span class="ic"><svg class="i"><use href="#i-paint"/></svg></span><h3>Exterior Paint</h3><p>Professional exterior coatings that protect your home and refresh its appearance.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-hvac"/></svg></span><h3>HVAC &amp; Heat Pumps</h3><p>Modern heating and cooling systems designed to run more efficiently than aging units.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-insulation"/></svg></span><h3>Attic Insulation</h3><p>Attic and wall insulation to help your home hold temperature and stay comfortable.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-window"/></svg></span><h3>Energy-Efficient Windows</h3><p>Replacement windows that help reduce heat transfer and outside noise.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-roof"/></svg></span><h3>Cool Roofing</h3><p>Reflective roofing options built for California sun and weather.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-droplet"/></svg></span><h3>Heat Pump Water Heaters</h3><p>Efficient water heating that runs on less energy than traditional units.</p></div>
+      <div class="svc"><span class="ic"><svg class="i"><use href="#i-thermostat"/></svg></span><h3>Smart Thermostats</h3><p>Better temperature control that can help reduce unnecessary HVAC runtime.</p></div>
     </div>
     <p class="services-note">Available upgrades, rebates, and financing options vary by program, location, utility provider, and home condition. A licensed contractor will determine eligibility during your free in-home assessment.</p>
   </div>
@@ -828,20 +842,16 @@
   </div>
 </section>
 
-<!-- ============ WHAT WE INSTALL ============ -->
+<!-- ============ ADDITIONAL HOME IMPROVEMENTS ============ -->
 <section class="section-alt">
   <div class="container">
-    <p class="sec-eyebrow">What We Install</p>
-    <h2 class="section-title">Quality Upgrades, Professionally Installed</h2>
-    <p class="section-sub">From energy systems to exteriors — every job is completed by licensed, insured crews.</p>
-    <div class="install-grid">
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-hvac"/></svg></span><h3>HVAC &amp; Heat Pumps</h3><p>Efficient heating and cooling systems sized right for your home.</p></div>
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-insulation"/></svg></span><h3>Attic Insulation</h3><p>Better temperature control and comfort, season after season.</p></div>
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-window"/></svg></span><h3>Windows &amp; Doors</h3><p>Energy-efficient replacements that cut heat transfer and noise.</p></div>
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-roof"/></svg></span><h3>Roofing &amp; Cool Roofs</h3><p>Durable roofing built for California sun and weather.</p></div>
-      <div class="install"><span class="ic"><svg class="i"><use href="#i-droplet"/></svg></span><h3>Heat Pump Water Heaters</h3><p>Modern, efficient water heating that runs on less energy.</p></div>
+    <p class="sec-eyebrow">Beyond Energy</p>
+    <h2 class="section-title">Additional Home Improvements</h2>
+    <p class="section-sub">Some contractors in our network also handle these exterior projects — separate from energy rebates.</p>
+    <div class="install-grid" style="grid-template-columns:repeat(4,1fr)">
       <div class="install"><span class="ic"><svg class="i"><use href="#i-grass"/></svg></span><h3>Landscape &amp; Turf</h3><p>Low-water, low-maintenance yards designed for the climate.</p></div>
       <div class="install"><span class="ic"><svg class="i"><use href="#i-pavers"/></svg></span><h3>Pavers &amp; Hardscape</h3><p>Driveways, patios, and walkways that add durability and appeal.</p></div>
+      <div class="install"><span class="ic"><svg class="i"><use href="#i-foundation"/></svg></span><h3>Foundation</h3><p>Evaluation and repair to protect your home's structural integrity.</p></div>
       <div class="install"><span class="ic"><svg class="i"><use href="#i-paint"/></svg></span><h3>Exterior Paint</h3><p>Protective coatings that refresh and shield your home's exterior.</p></div>
     </div>
   </div>
@@ -976,7 +986,7 @@
       quizNav.style.display  = '';
       var pct = Math.round((n / TOTAL_INPUT_STEPS) * 100);
       progBar.style.width  = pct + '%';
-      stepLabel.textContent = 'Step ' + n + ' of ' + TOTAL_INPUT_STEPS;
+      stepLabel.textContent = 'Question ' + n + ' of ' + TOTAL_INPUT_STEPS;
       pctLabel.textContent  = pct + '% complete';
       btnBack.style.display = n > 1 ? '' : 'none';
       btnNext.textContent   = n === TOTAL_INPUT_STEPS ? 'See My Results →' : 'Continue →';
